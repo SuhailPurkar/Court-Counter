@@ -5,7 +5,7 @@ Court Counter is ann app made during the for the Udacity course [Android Develop
 ## Demo
 The gif was recorded on a Android 5.1.1 KitKat device (API Level 22).
 
-[<img src="http://i.imgur.com/ZV19MIY.gif" width=200>](http://i.imgur.com/ZV19MIY.gif)
+[<img src="http://i.imgur.com/DqA9eam.gif" width=200>](http://i.imgur.com/DqA9eam.gif)
 
 ## License
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
