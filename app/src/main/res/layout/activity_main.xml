@@ -1,0 +1,144 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+<LinearLayout
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Team A"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "0"
+        android:gravity="center_horizontal"
+        android:id = "@+id/team_a_score"
+        android:textSize="56sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        android:onClick="increment1A"
+        android:layout_margin="8dp"
+        android:background="@drawable/buttonshape1"/>
+
+    <Button
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2"
+        android:onClick = "increment2A"
+        android:background="@drawable/buttonshape1"/>
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3"
+        android:onClick="increment3A"
+        android:layout_margin="8dp"
+        android:background="@drawable/buttonshape1"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "Team B"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-medium"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "0"
+            android:gravity="center_horizontal"
+            android:id = "@+id/team_b_score"
+            android:textSize="56sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            />
+        <Button
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+1"
+            android:onClick="increment1B"
+            android:background="@drawable/buttonshape2"
+            />
+        <Button
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+2"
+            android:onClick = "increment2B"
+            android:background="@drawable/buttonshape2"
+            />
+        <Button
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+3"
+            android:onClick="increment3B"
+            android:background="@drawable/buttonshape2"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+    <Button
+        android:layout_margin="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="reset"
+        android:id = "@+id/reset"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+</RelativeLayout>
