@@ -1,6 +1,6 @@
 # Court-Counter
 
-Court Counter is ann app made during the for the Udacity course [Android Development for Begginers](https://www.udacity.com/course/ud837).
+Court Counter is an app made during the for the Udacity course [Android Development for Beginers](https://www.udacity.com/course/ud837).
 
 ## Demo
 The gif was recorded on a Android 5.1.1 KitKat device (API Level 22).
